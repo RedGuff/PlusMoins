@@ -28,7 +28,7 @@ input:
         }
         catch (const std::invalid_argument& e)
         {
-            cout << "Un nombre, svp !" << endl;
+            cerr << "Un nombre, svp !" << endl;
             goto input; // Pardon !
         }
 
