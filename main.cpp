@@ -53,8 +53,13 @@ int main()
         }
 
     }
-    while (tentative != nombreATrouver);
-    cout << "Bravo ! C\'est une belle victoire, avec seulement " << nbTentative << " tentatives." << endl;
+    while (tentative != nombreATrouver);   
+    cout << "Bravo ! C\'est une belle victoire, avec seulement " << nbTentative << " tentative";
+    if (nbTentative > 1)
+    {
+        cout << "s" ;
+    }
+    cout << "." << endl;
     return 0;
 }
 
